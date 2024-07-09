@@ -130,3 +130,38 @@ nav button {
   border-radius: 5px;
   gap: 40px;
 }
+
+/* Video */
+
+.video {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.video-container {display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+.video-box-content {
+    width: 600px;
+    text-align: center;
+}
+
+.video-box-content h1 {
+    margin-bottom: 20px;
+    color: #0D1321;
+}
+
+.video-box-content p {
+    margin-bottom: 20px;
+    color: #8d8d8d;
+    font-size: 15px;
+}
+
+.video-content {
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.video-content iframe {
+    border-radius: 10px;
+}

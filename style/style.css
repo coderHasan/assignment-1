@@ -1,0 +1,44 @@
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* Default style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-text-color{
+    color: #0D1321;
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+nav h2{
+    font: 28px;
+    font-weight: 700;
+}
+
+nav button{
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+

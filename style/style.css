@@ -17,7 +17,7 @@
   color: #0d1321;
 }
 .primary-bg {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
 }
 .coding-btn {
   padding: 8px 20px;
@@ -243,7 +243,7 @@ nav button {
 .next-target {
   width: 1000px;
   margin: 20px auto;
-  background-image: url("./assets/handshake.jpg");
+  background-image: url("../assets/handshake.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

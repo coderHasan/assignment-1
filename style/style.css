@@ -289,3 +289,25 @@ nav button {
   border: navajowhite;
   border-radius: 5px;
 }
+
+.footer {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+/* Footer */
+footer {
+  background: #F7F8F8;
+}
+
+.footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer ul li {
+  list-style: none;
+}

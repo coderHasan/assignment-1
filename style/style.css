@@ -24,7 +24,9 @@
   background-color: white;
   border: 1px solid #0d1321;
 }
-
+p{
+  color: #757575;
+}
 /* Nav */
 
 nav {
@@ -119,7 +121,7 @@ nav button {
 
 .coding-content p {
   margin-bottom: 20px;
-  color: #757575;
+  font-size: 15px;
 }
 .coding-box2{
     background: linear-gradient(45deg, transparent, white);
@@ -164,4 +166,75 @@ nav button {
 
 .video-content iframe {
     border-radius: 10px;
+}
+
+/* Target */
+.target {
+    width: 1000px;
+    margin: 50px auto;
+}
+.target-box-content {
+  text-align: center;
+}
+
+.target-box-content p {
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.target-box-content h1 {
+  margin-top: 70px;
+}
+.target-box-content {
+  text-align: center;
+}
+
+.target-box-content p {
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.target-box-content h1 {
+  margin-top: 70px;
+}
+
+.language-box {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.single-card-bg1{
+  background-color: #FFF6F4;
+}
+.single-card-bg2{
+  background-color: #F2F6FE;
+}
+.single-card-bg3{
+  background-color: #FFFDF2;
+}
+.single-card {
+  padding: 30px;
+  width: 32%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px 3px #e6e6e6;
+}
+
+.single-card h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.single-card p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.single-card span a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.single-card span {
+  margin-top: 20px;
+  display: block;
 }

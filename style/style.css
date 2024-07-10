@@ -238,3 +238,54 @@ nav button {
   margin-top: 20px;
   display: block;
 }
+
+/* Support */
+.next-target {
+  width: 1000px;
+  margin: 20px auto;
+  background-image: url("/assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.suppotr {
+  text-align: center;
+  background-color: #0000005c;
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+
+.suppotr h1 {
+    padding-top: 20px;
+    color: white;
+}
+.suppotr p {
+  color: #cdcdcd;
+  margin-top: 15px;
+}
+
+.feedback-box {
+  padding-bottom: 10px;
+  width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.feedback-box input {
+  width: 80%;
+  padding: 10px 8px;
+  border: navajowhite;
+  border-radius: 5px;
+}
+
+.feedback-box button {
+  padding: 10px 15px;
+  font-weight: bold;
+  border: navajowhite;
+  border-radius: 5px;
+}

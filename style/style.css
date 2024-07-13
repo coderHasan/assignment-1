@@ -316,3 +316,48 @@ footer {
 .footer ul li {
   list-style: none;
 }
+
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-pic{
+      display: none;
+    }
+
+
+nav {
+  margin: auto;
+}
+
+nav button {
+  display: none;
+}
+
+nav h2 {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.primary-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-wrap {
+  width: auto;
+}
+
+
+h1.title-text-color {
+  font-size: 1.5rem;
+}
+
+p.banner-desc {
+  font-size: .8rem;
+}
+
+}
